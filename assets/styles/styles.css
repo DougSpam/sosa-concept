@@ -27,12 +27,17 @@ body {
     color: #000;
     display: inline-block;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 .password {
     display: inline-block;
     vertical-align: middle;
     padding-top: 16px;
+}
+
+.password a{
+    text-decoration: none;
 }
 
 .fa fa-lock {
@@ -43,6 +48,5 @@ body {
 .senha {
     margin: 0;
     font-size: 16px;
-    text-decoration: none;
     color: black;
 }
