@@ -7,7 +7,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 250px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
 }
 
 .img-login img{
@@ -16,12 +18,12 @@ body {
     padding: 16px 0 0 16px;
 }
 
-.input-email input {
+/* .input-email input {
     background-color: transparent;
     border-radius: 10px;
     width: 190px;
     height: 19px;
-}
+} */
 
 .input-email a {
     color: #000;
@@ -49,4 +51,20 @@ body {
     margin: 0;
     font-size: 16px;
     color: black;
+}
+
+.input-group-text:hover {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
+
+.input-email {
+    transition: transform 3s, 500ms;
+
+}
+.input-email:hover {
+    transform: scale(1.1);
 }
